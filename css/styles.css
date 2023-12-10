@@ -288,6 +288,7 @@ a .nav-link,
 	background-position: center;
 	width: 1158px;
 	height: 600px;
+	max-width: 1440px;
 
 	margin: 0 auto;
 }
@@ -322,6 +323,13 @@ a .nav-link,
 	padding: 0 16px;
 	text-align: center;
 	margin-bottom: 8px;
+}
+
+.icon-wrapper {
+	background-color: var(--cloud);
+	display: block;
+	width: 100%;
+	padding: 24px 100px;
 }
 /* section 3 */
 .sec-three,
@@ -434,7 +442,3 @@ a .nav-link,
 	color: white;
 	padding: 188px 0;
 }
-
-/* lists */
-
-/* flexbox */

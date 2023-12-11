@@ -438,6 +438,11 @@ a .nav-link,
 .customer-icon {
 	fill: currentColor;
 }
+
+.customer-icon:hover,
+.customer-icon:focus {
+	fill: var(--ocean);
+}
 /* portfolio  */
 .menu-button {
 	background-color: var(--cloud);

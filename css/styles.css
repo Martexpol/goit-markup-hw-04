@@ -126,6 +126,8 @@ img {
 	padding: 120px 0;
 	margin: 0 auto;
 	padding: 0 15px;
+	display: flex;
+	align-items: baseline;
 }
 
 .header-alignment {

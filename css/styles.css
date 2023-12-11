@@ -117,7 +117,8 @@ img {
 	flex-direction: row;
 	justify-content: space-between;
 	align-content: center;
-	box-shadow: 0 4px 4px 0 #00000040;
+	box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+		0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .container-footer {
@@ -282,7 +283,10 @@ a .nav-link,
 .section-one {
 	background-color: var(--navy-blue);
 	color: white;
-	background-image: url("../images/darkbg.jpg"),
+	background-image: linear-gradient(
+			rgba(46, 47, 66, 0.7),
+			rgba(46, 47, 66, 0.7)
+		),
 		url("../images/peopleoffice.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -330,6 +334,11 @@ a .nav-link,
 	background-color: var(--cloud);
 	padding-block: 24px;
 	margin-bottom: 8px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 112px;
+	border-radius: 4px;
 }
 
 .icon-wrapper > svg {

@@ -385,7 +385,8 @@ a .nav-link,
 	gap: 24px;
 }
 .media-wrapper {
-	background-color: white;
+	width: 40px;
+	height: 40px;
 }
 .media-link {
 	width: 100%;
@@ -396,6 +397,15 @@ a .nav-link,
 	align-items: center;
 	justify-content: center;
 }
+
+.media-link:hover,
+.media-link:focus {
+	background-color: var(--ocean);
+}
+.media-icon {
+	fill: var(--cloud);
+}
+
 /* section 5 - customers */
 .sec-five-card {
 	width: calc((100% - 120px) / 6);

@@ -374,10 +374,18 @@ a .nav-link,
 /* section 5 - customers */
 
 .customers-wrapper {
-	border: 1px var(--light-slate);
+	border: 1px;
+	border-color: var(--light-slate);
 	border-radius: 4px;
-	padding: 32px 16 px;
+
+	width: calc((100% - 120px) / 6);
+}
+
+.customers-wrapper > svg {
 	margin: auto;
+	display: block;
+	width: 104px;
+	padding: 32px 16 px;
 }
 
 /* portfolio  */

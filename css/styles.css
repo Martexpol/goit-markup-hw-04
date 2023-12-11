@@ -410,20 +410,39 @@ a .nav-link,
 /* section 5 - customers */
 .sec-five-card {
 	width: calc((100% - 120px) / 6);
+	height: 88px;
 }
-.customers-wrapper {
+/* .customers-wrapper {
 	border: 1px;
 	border-color: var(--light-slate);
 	border-radius: 4px;
 	background-color: white;
-}
+} */
 .customers-wrapper > svg {
 	margin: auto;
 	display: block;
 	width: 104px;
 	padding: 32px 16 px;
 }
+.customer-link {
+	width: 100%;
+	height: 100%;
+	border: 1px solid var(--light-slate);
+	border-radius: 4px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: var(--light-slate);
+}
+.customer-link:hover,
+.customer-link:focus {
+	color: var(--ocean);
+	border-color: var(--ocean);
+}
 
+.customer-icon {
+	fill: currentColor;
+}
 /* portfolio  */
 .menu-button {
 	background-color: var(--cloud);

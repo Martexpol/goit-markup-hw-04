@@ -336,7 +336,7 @@ a .nav-link,
 	margin: auto;
 	display: block;
 	width: 64px;
-	/* height: auto; */
+	height: auto;
 }
 /* section 3 */
 .sec-three,
@@ -372,15 +372,14 @@ a .nav-link,
 }
 
 /* section 5 - customers */
-
+.sec-five-card {
+	width: calc((100% - 120px) / 6);
+}
 .customers-wrapper {
 	border: 1px;
 	border-color: var(--light-slate);
 	border-radius: 4px;
-
-	width: calc((100% - 120px) / 6);
 }
-
 .customers-wrapper > svg {
 	margin: auto;
 	display: block;

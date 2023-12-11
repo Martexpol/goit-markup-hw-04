@@ -5,6 +5,7 @@
 	--slate: #434455;
 	--cloud: #f4f4fd;
 	--cornflower: #e7e9fc;
+	--light-slate: #8e8f99;
 }
 * {
 	margin: 0;
@@ -328,13 +329,14 @@ a .nav-link,
 .icon-wrapper {
 	background-color: var(--cloud);
 	padding-block: 24px;
+	margin-bottom: 8px;
 }
 
 .icon-wrapper > svg {
 	margin: auto;
 	display: block;
 	width: 64px;
-	height: auto;
+	/* height: auto; */
 }
 /* section 3 */
 .sec-three,
@@ -367,6 +369,15 @@ a .nav-link,
 	letter-spacing: 0.02em;
 	padding: 0 16px;
 	text-align: center;
+}
+
+/* section 5 - customers */
+
+.customers-wrapper {
+	border: 1px var(--light-slate);
+	border-radius: 4px;
+	padding: 32px 16 px;
+	margin: auto;
 }
 
 /* portfolio  */

@@ -379,6 +379,8 @@ a .nav-link,
 }
 .media {
 	display: flex;
+	flex-direction: row;
+	width: 100%;
 	justify-content: space-between;
 	gap: 0 24px;
 }

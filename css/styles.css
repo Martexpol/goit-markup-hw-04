@@ -412,12 +412,7 @@ a .nav-link,
 	width: calc((100% - 120px) / 6);
 	height: 88px;
 }
-/* .customers-wrapper {
-	border: 1px;
-	border-color: var(--light-slate);
-	border-radius: 4px;
-	background-color: white;
-} */
+
 .customers-wrapper > svg {
 	margin: auto;
 	display: block;

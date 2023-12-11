@@ -418,7 +418,7 @@ a .nav-link,
 	height: 40px;
 }
 
-.media-wrapper > svg {
+.footer-link > svg {
 	margin: auto;
 	display: block;
 	height: auto;

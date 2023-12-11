@@ -404,7 +404,7 @@ a .nav-link,
 }
 .media-icon {
 	fill: var(--cloud);
-	padding: 0;
+	margin: 0 auto;
 }
 
 /* section 5 - customers */

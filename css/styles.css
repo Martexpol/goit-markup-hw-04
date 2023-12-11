@@ -379,6 +379,7 @@ a .nav-link,
 	border: 1px;
 	border-color: var(--light-slate);
 	border-radius: 4px;
+	background-color: white;
 }
 .customers-wrapper > svg {
 	margin: auto;

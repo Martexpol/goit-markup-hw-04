@@ -320,7 +320,7 @@ a .nav-link,
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
-	width: 1158px;
+	width: 1440px;
 	height: 600px;
 	max-width: 1440px;
 	margin: 0 auto;
@@ -353,8 +353,8 @@ a .nav-link,
 	line-height: 1.2;
 	letter-spacing: 0.02em;
 	color: var(--navy-blue);
-	padding: 0 16px;
-	text-align: center;
+	padding: 0;
+	text-align: left;
 	margin-bottom: 8px;
 }
 
@@ -375,6 +375,18 @@ a .nav-link,
 	width: 64px;
 	height: auto;
 }
+
+.sec2-body-text {
+	text-decoration: none;
+	font-family: "Roboto", sans-serif;
+	color: var(--slate);
+	background-color: white;
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.02em;
+	padding: 0;
+}
+
 /* section 3 */
 .sec-three,
 .sec-four,
@@ -384,6 +396,10 @@ a .nav-link,
 
 .sec-three-card {
 	width: calc((100% - 48px) / 3);
+}
+
+.sec3-padding {
+	padding: 0 0 120px 0;
 }
 /* section 4 - team */
 .team-card {
@@ -405,6 +421,7 @@ a .nav-link,
 	letter-spacing: 0.02em;
 	padding: 0 16px;
 	text-align: center;
+	margin-bottom: 8px;
 }
 .media {
 	display: flex;
@@ -441,6 +458,17 @@ a .nav-link,
 .media-icon {
 	fill: var(--cloud);
 	margin: 0 auto;
+}
+
+.header-three-team {
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 1.2;
+	letter-spacing: 0.02em;
+	color: var(--navy-blue);
+	padding: 0;
+	text-align: center;
+	margin-bottom: 8px;
 }
 
 /* section 5 - customers */
